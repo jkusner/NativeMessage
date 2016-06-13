@@ -1,6 +1,6 @@
 window.addEventListener("load", function() {
 
-  port = chrome.runtime.connectNative("com.johnkusner.nativemessagingtest")
+  port = chrome.runtime.connectNative("com.nativemessage.example")
   console.log("Port OPEN")
   console.log(port)
 
