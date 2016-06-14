@@ -1,7 +1,7 @@
 ### Linux Manifest Instructions
 
-* Download [examplemanifest.json](./examplemanifest.json)
-* Place the file in one of the locations shown below (rename it to match the `name` defined inside)
+* Download [com.nativemessage.example.json](./com.nativemessage.example.json)
+* Place the file in one of the locations shown below
 * Change the `path` inside of your manifest file to the **absolute path** where your executable is located
 
 #### Manifest Location Table
