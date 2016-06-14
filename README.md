@@ -19,3 +19,7 @@ Grab a wrapper and check out an example.
 * If you changed the name from _com.nativemessage.example_, make sure you changed it everywhere possible (including the JavaScript source in the chrome extension)
 * Click the chrome extension icon at the top right of Google Chrome.
 * If setup correctly, your application will launch
+
+### The Manifest
+
+* Head over to the [manifest](./manifest) folder and then read the instructions in the folder for your OS
