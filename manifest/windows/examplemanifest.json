@@ -1,0 +1,9 @@
+{
+  "name": "com.nativemessage.example",
+  "description": "Native Message Example",
+  "path": "NativeMessageTest.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/"
+  ]
+}
