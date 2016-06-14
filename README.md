@@ -1,6 +1,6 @@
 # NativeMessage
 
-Native message wrappers for Google Chrome https://developer.chrome.com/extensions/nativeMessaging
+Native message wrappers for Google Chrome
 
 Grab a wrapper and check out an example.
 
@@ -23,3 +23,14 @@ Grab a wrapper and check out an example.
 ### The Manifest
 
 * Head over to the [manifest](./manifest) folder and then read the instructions in the folder for your OS
+
+## How the messages work
+
+Name   | Type   |Info                         |Bytes
+:------|:-------|:----------------------------|:-----
+Length | Int32  | Length of the Message        |4
+Message| String | A UTF-8 JSON encoded string |{Length}
+
+Messages are fed through standard input/output
+
+For more information, see [Google's official Native Messaging guide](https://developer.chrome.com/extensions/nativeMessaging) at
